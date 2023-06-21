@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: "this file will print
- * words in reverse"
+ * on base 16 lowercase"
  *  Return: Always 0 success
  */
 
@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	char c;
 
-	for (i = 0; i <= 9; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 
